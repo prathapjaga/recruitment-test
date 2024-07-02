@@ -1,0 +1,146 @@
+                                   C++   Question Paper 
+
+NAME:                                                                                          DATE:
+
+VECTOR ID:                                                                                 MARKS:25  
+
+
+1) ______ means that both the data and the methods which may access it are defined together in the same unit.
+
+a) Data hiding   b) Encapsulation         c) Data Binding                       d) None of these options
+
+
+2) Can I create new operators using operator overloading?
+
+        a) Yes                      b) No
+
+
+3) Can I inherit the constructor and destructor of a base class?
+
+  a)  Yes          b) No
+
+
+4) The _________ of a function is not a factor in distinguishing overloaded functions.
+
+
+
+5) int sum(int a, int b=5, int c=10);                                       (2 marks)
+main()
+{
+ cout<<sum(5)<<sum(10,10)<<sum(10,10,20); 
+
+} 
+int sum(int a, int b, int c) 
+{
+ return a+b+c;
+
+} 
+What is the output of the above code?
+
+
+6) List the different types of constructors in C++?   (2Marks)
+
+7) Pick the correct statement about references.
+
+ a) References can be assigned value NULL
+
+b) References once assigned cannot be changed to refer another variable
+
+c) Reference should not be initialized when created
+
+d) Reference is the same as pointers
+
+
+8) How constructors are different from other member functions of the class?
+
+  a) Constructor has the same name as the class itself
+
+  b) Constructors do not return anything
+
+c) Constructors are automatically called when an object is created
+
+d) All of the mentioned
+
+
+9) #include<iostream>
+using namespace std; 
+namespace ABC 
+{ 
+int data=10; 
+void foo()
+ {
+ cout<<"in ABC foo :"<<endl; 
+} 
+} 
+
+namespace   XYZ 
+{
+ float data=2.3;
+ void foo() 
+{
+ cout<<"in XYZ foo:"<<endl; 
+} 
+}
+ using namespace XYZ; 
+int main() 
+{
+ cout<<data<<endl; 
+ABC::foo(); 
+
+}
+
+
+10) The mechanism of deriving a class from another derived class is know as _________
+
+ a) multiple inheritance
+
+ b) multilevel inheritance
+
+c) single inheritance
+
+d) hierarchical inheritance
+
+
+
+11) Syntax for Pure Virtual Function is ______________ .
+
+
+12) The redefinition of a virtual function by a derived class is called_____
+
+ a) overriding
+
+ b) overloading 
+           
+ c) template
+
+ d) generic function
+
+
+13) which of the following concept is used to implement late binding?
+
+a) virtual function
+     
+b) operator function
+
+c) const function
+
+d) static function
+
+
+
+14) write differences between references and pointers? (2m)
+
+15) Write the syntax for post increment operator overloading using friend function  (1marks)
+
+
+16) define abstract class?
+
+17) Exception handling implemented in c++ by using ----------? 
+
+18) write a program to design stack operations using class Template. ( 5marks)
+
+NOTE:
+
+  store and retrieve any type of datatype	
+
+
