@@ -8,7 +8,7 @@
       {
 		int a = 0, b = 1, c = 3;
 		*( (a) ? &b : &a ) = a ? b : c;
-		printf(“%d  %d  %d\n”,a,b,c);
+		printf("%d  %d  %d\n",a,b,c);
 		return 0;
       }
       A.  0 1 3
@@ -19,12 +19,12 @@
 2.   #include<stdio.h>
       int main()
       {
-		char str1[] = “Hello”;
-		char str2[] = “Hello”;
+		char str1[] = "Hello";
+		char str2[] = "Hello";
 		if(str1 == str2)
-		printf(“Equal\n”);
+		printf("Equal\n");
 		else
-		printf(“Unequal\n”);		
+		printf("Unequal\n");		
 		return 0;
      }
      A. Equal
@@ -35,7 +35,7 @@
 3.   #include<stdio.h>
       int main()
       {
-		printf( 5 + “Good Morning\n”);
+		printf( 5 + "Good Morning\n");
 		return 0;
       }
        A. Good Morning
@@ -50,13 +50,13 @@ D. Morning
 	int *p[ ] = {arr,arr+1,arr+2,arr+3,arr+4};
 	int **ptr = p;
 	ptr++;
-	printf(“%d %d %d\n”, ptr-p, *ptr-arr, **ptr);
+	printf("%d %d %d\n", ptr-p, *ptr-arr, **ptr);
 	*ptr++;
-	printf(“%d %d %d\n”, ptr-p, *ptr-arr, **ptr);
+	printf("%d %d %d\n", ptr-p, *ptr-arr, **ptr);
 	*++ptr;
-	printf(“%d %d %d\n”,ptr-p, *ptr-arr, **ptr);
+	printf("%d %d %d\n",ptr-p, *ptr-arr, **ptr);
 	++*ptr;
-	printf(“%d %d %d\n”,ptr-p, *ptr-arr, **ptr);
+	printf("%d %d %d\n",ptr-p, *ptr-arr, **ptr);
 	return 0;
      }
     A.  0 0 0
@@ -85,7 +85,7 @@ D. Morning
      {	
 	int a = 3;
 	fun(a);
-	printf(“\n”);
+	printf("\n");
 	return 0;
      }
       void fun(int n)
@@ -93,7 +93,7 @@ D. Morning
            	if(n > 0)
            	{
             		fun(--n);
-           		printf(“%d “,n);
+           		printf("%d ",n);
            		fun(--n);
            	}
       }
@@ -106,11 +106,11 @@ D. Morning
 6.  #include<stdio.h>
      int main( )
      {
-		static char *s[ ] = {“black”,”white”,”pink”,”violet”};
+		static char *s[ ] = {"black","white","pink","violet"};
 		char **ptr[ ] = {s+3, s+2, s+1, s}, ***p;
 		p = ptr;
 		++p;
-		printf(“%s\n”,**p+1);
+		printf("%s\n",**p+1);
 		return 0;
      }
      A. ink
@@ -121,11 +121,11 @@ D. Morning
 7.  #include<stdio.h>
      int main( )
      {
-	char str1[ ] = “KILLIS”
-          char str2[ ] = “BIRD”;
+	char str1[ ] = "KILLIS"
+          char str2[ ] = "BIRD";
 	char *s1 = str1, *s2 = str2;
   	   while( *s1++ = *s2++);
-	   printf(“%s\n”,str1);
+	   printf("%s\n",str1);
 	   return 0;
        }
       A. KILLISBIRD
@@ -147,8 +147,8 @@ D. Morning
      #include<string.h>
      int main()
      {
-		char *str[ ] = {“Purity”, “Divinity”, “Humanity”,”Community”};
-		printf(“%ld  %ld\n”,sizeof(str), strlen(str[0]));
+		char *str[ ] = {"Purity", "Divinity", "Humanity","Community"};
+		printf("%ld  %ld\n",sizeof(str), strlen(str[0]));
 		return 0;
      }
 10. #include<stdio.h>
@@ -160,7 +160,7 @@ D. Morning
 			int bit3 : 4;
 			int bit4 : 4;
 		} bit = {1,2,2};
-		printf(“%d %d %d\n”,bit.bit1, bit.bit3, bit.bit4);
+		printf("%d %d %d\n",bit.bit1, bit.bit3, bit.bit4);
 		return 0;
       }
 11. #include<stdio.h>
@@ -169,8 +169,8 @@ D. Morning
 		int i, a[ ] = {10,20,30,40,50};
 		char *p = (char *)a;
 		for(i=0;i<5;i++)
-		printf(“%d “,p[i]);
-		printf(“\n”);
+		printf("%d ",p[i]);
+		printf("\n");
      }
 12.  Write the Perfect Syntax of malloc( ).
 13.  What is Memory leak in DMA? How to avoid it ?
@@ -187,7 +187,7 @@ Key Paper :
 5.  D)
 6.  A)
 7.  B)
-8.  printf(“ %d\n”, *((int *) p + 4 )) ;
+8.  printf(" %d\n", *((int *) p + 4 )) ;
 9.  32, 6
 10. -1 2 2
 11. 10 0 0 0 20
