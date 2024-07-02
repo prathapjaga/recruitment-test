@@ -1,0 +1,9 @@
+Q1) What are the differences between a hard real-time system and a soft  real-time system? Provide examples of applications that fall into each category.(2M)
+
+Q2)  Explain the concept of task priority inversion and the use of the priority inheritance protocol to prevent it.(2M)
+
+Q3) what is Real-Time?(2M)
+
+Q4) What is Interrupt latency?(2M)
+
+Q5) list out the key characteristics of RTOS?(2M)
