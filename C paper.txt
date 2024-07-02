@@ -141,6 +141,8 @@
 		char *p = (char *) a;
 		return 0;
      }
+solution : 
+
 #include<stdio.h>
 
 int main()
