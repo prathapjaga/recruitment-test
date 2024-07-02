@@ -1,0 +1,184 @@
+1) Name the three Leads of a common transistor
+a)collector,bias,omitter
+b)base,collector,case
+c)emitter,collector,base
+d)collector,base,emitter
+
+2) connecting a lead from negative to positive of a battery  will  produce
+a)  A high resistance circuit
+b) a  short  circuit
+ c)A low current path
+d)An open circuit
+3) What is the approximate characteristic voltage that develops 
+    across a red LED?
+a) 1.7v
+b) 3.4v
+c)0.6v
+d)none
+4) If two resistors are placed in series, is the final resistance:
+a) higher
+b) lower
+c) same
+d) cannot be determined
+
+
+
+
+.
+
+5) If a small value of capacitance is connected in parallel
+   with a large value, the combined capacitance will be:
+The same
+Higher
+Lower
+
+ 6) The resistor identified in brown is called the:
+     
+
+
+Base Bias Resistor
+Load Resistor
+Emitter Feedback Resistor
+Bypass Resistor
+
+7)The lead marked with the arrow is:
+The Collector
+The Base
+The Emitter
+
+The case
+8) . To obtain a higher value of resistance, resistors are 
+      connected in:
+a) reverse
+b) parallel
+c) series
+d)forward
+9) The current in a circuit is 45mA. This is:
+a)0.045amp
+b)0.00045a
+c)0.0045a
+d)0.45a
+
+10) What device is used to convert direct current to alternating current?
+A: Oscillator
+11)What is the resistance of a lamp which draws 120 mA when connected to a
+12.6-V battery?
+A: 105 Ω
+12) Which of the following is represented by the symbol XL?
+a)  impedance of a load
+b)  reactance of a coil
+c)  resonant frequency of a filter
+d)  output level of a source
+
+13)The frequency of a signal is INVERSELY proportional to __________
+a)amplitude
+b)period
+c)phase
+d)power
+
+14)A power amplifier has a  gain of 20dB  and an input level of 2 volts.Assuming that the 
+       output and the input impedances are same ,what is the voltage level at the amplifier output 
+ a)10v
+b)20v
+c)30v
+d)40v
+
+15)If the input to a comparator is a sine wave, the output is a
+
+a)
+ramp voltage
+b)
+sine wave
+c)
+rectangular wave
+d)
+sawtooth wave
+
+
+16) Refer to the given figure. This circuit is known as
+
+
+
+
+a) noninverting amplifier.
+
+b) differntiator
+
+c) an integrator.
+
+d) a summing amplifier.
+
+
+
+
+
+
+17) Refer to the given figure. This circuit is known as
+     
+    a) a noninverting amplifier.
+
+    b) a differentiator.
+
+    c) an integrator.
+
+    d) a summing amplifier.
+
+
+18) The basic logic gate whose output is the complement of the input is the:
+
+    a) 
+    a) OR gate
+    b) 
+      b)   AND gate
+    c) 
+      c)   INVERTER gate
+
+    d) Comparator
+
+
+
+19) The logic gate that will have HIGH or "1" at its output when any one of its inputs is HIGH is
+
+
+    a) 
+OR gate
+      b)
+AND gate
+      c)
+NOR gate
+      d)
+NOT gate
+
+
+
+
+
+
+20)What type of logic gate does this symbol represent? 
+
+    a) Exclusive OR
+    b) Exclusive NOR
+    c) OR
+    d) NOR
+
+ 21) What does an EXOR gate do? 
+a) Give a high output when one or more of its inputs are high
+b) Give a high output when only one of its inputs are high
+c) Give a low output when one or more of its inputs are high
+d) Give a low output when only one of its inputs are high
+
+22) Flow of electrons is generally termed as _____________.
+a) electric current b) electric shock c) semiconductor d) none of the above
+
+
+
+
+23. What is a RISC architecture?
+24. What is the startup code?
+25. What is Embedded system?
+
+
+
+
+
+
